@@ -1,5 +1,5 @@
 /* 
-   File:  Savitch Chapter 2 Practice program #1 main
+   File:  Savitch Chapter 2 Programming Projects#1 main
    Author: Raj Chipalu
    Created on September 25 , 2016, 12:19pm
    Purpose: Your friend wants to know how much diet soda pop it is possible to 
