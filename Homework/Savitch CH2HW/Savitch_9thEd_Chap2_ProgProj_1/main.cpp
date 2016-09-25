@@ -2,7 +2,8 @@
    File:  Savitch Chapter 2 Practice program #1 main
    Author: Raj Chipalu
    Created on September 25 , 2016, 12:19pm
-   Purpose:  
+   Purpose: Your friend wants to know how much diet soda pop it is possible to 
+ * drink without dying as a result. Write a program to supply the answer. 
  */
 
 //System Libraries
@@ -13,22 +14,21 @@ using namespace std;  //Name-space used in the System Library
 //User Libraries
 
 //Global Constants
-const float ARTSWT= 0.001;
-const int CAN = 350;//
+const float CAN = .35;//amount of sweetener in each can of soda. 
 //Function prototypes
 
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declaration of Variables
-    int artkilm;
-    int massmou;
-    float stpdiet;
-    float swtdiet;
-    int amtdcan;
+    float artkilm;//amount of artificial sweetener to kill mouse. 
+    float massmou;//mass of the mouse. 
+    float stpdiet;//amount of weight at which dieter will stop. 
+    float swtdiet;//amount of sweetener that would kill dieter. 
+    float amtdcan;//amount of diet soda cans to kill dieter. 
     
      
     //Input values
-    while (stpdiet > 0)//If the weight of the cereal is greater than zero, user can run as many times as they want. 
+    while (stpdiet > 0)//If weight is greater than zero user can run as many times as they like. 
     {
     cout << "Press return after entering a number"<<endl;
     cout << "Enter the weight of the mouse in grams"<<endl;
@@ -39,12 +39,12 @@ int main(int argc, char** argv) {
     cin >> stpdiet;
      
     //Process values -> Map inputs to Outputs
-    swtdiet = ((artkilm/massmou) * stpdiet);
-    amtdcan = (swtdiet)/CAN ;
+    swtdiet = ((artkilm/massmou) * stpdiet);//Calculation to find the amount of sweetner to kill dieter. 
+    amtdcan = (swtdiet*CAN) ;//Calculation to find amount of cans to kill dieter. 
     
     //Display Output
     cout << "The amount of diet soda cans to kill the dieter is "<<endl;
-    cout <<  swtdiet<<endl;
+    cout <<  amtdcan<<endl;
     }
   
    
