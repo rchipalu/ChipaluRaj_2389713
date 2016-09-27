@@ -3,7 +3,7 @@
    Author: Raj Chipalu
    Created on September 25 , 2016, 2:20pm
    Purpose: Write a program that takes an employee’s previous annual salary as
- *  input, and outputs the amount of retroactive pay due the em- ployee, 
+ *  input, and outputs the amount of retroactive pay due the employee for 6 months, 
  * the new annual salary, and the new monthly salary.
  */
 
@@ -36,7 +36,7 @@ int main(int argc, char** argv) {
     
      
     //Process values -> Map inputs to Outputs
-    retpay = (anualsa*INCR);//Calculate amount of retroactive pay due. 
+    retpay = (anualsa/2) * INCR;//Calculate amount of retroactive pay due. 
     newansa = (retpay + anualsa);//Calculate new annual salary.       
     monsal = (newansa/12);//Calculate new monthly salary. 
     //Display Output
@@ -49,10 +49,6 @@ int main(int argc, char** argv) {
     cout << monsal<<endl;
     cout << ""<<endl;}
     
-  
-   
-    
-    
-    //Exit Program
+  //Exit Program
     return 0;
 }
