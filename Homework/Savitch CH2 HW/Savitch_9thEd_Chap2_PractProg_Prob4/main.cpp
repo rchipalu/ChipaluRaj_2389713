@@ -19,7 +19,7 @@ using namespace std;  //Name-space used in the System Library
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declaration of Variables
-    string teacher;
+    string teacher;//variables for the mad lib. 
     string nme;
     string food;
     string numb;
@@ -53,7 +53,7 @@ int main(int argc, char** argv) {
     
     
     //Process values -> Map inputs to Outputs
-    cout <<"Dear Instructor ";
+    cout <<"Dear Instructor ";//start the mad lib
     cout << teacher;
     cout << ","<<endl;
     
