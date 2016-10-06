@@ -19,15 +19,15 @@ using namespace std;  //Name-space used in the System Library
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declaration of Variables
-    char r;
-    char p;
-    char s;
+    char r;//rock
+    char p;//paper
+    char s;//scissors
     char ans1;
     char ans2;
     char ans3;
      
     //Input values
-    cout<<"User one please enter paper rock or scissors (p,r,s)"<<endl;
+    cout<<"User one please enter paper rock or scissors (p,r,s)"<<endl;//Entering variables. 
     cin >> ans1;
     
     cout <<"User two please enter paper rock or scissors (p,r,s)"<<endl;
@@ -40,9 +40,9 @@ int main(int argc, char** argv) {
     {    
         if  ((ans1 == 'r' && ans2 == 'p') || (ans1 == 'p' && ans2 == 'r'))
         {   
-            cout<<"Paper covers rock"<<endl;
+            cout<<"Paper covers rock"<<endl;//reasoning for the winner. 
         
-            if (ans1 == 'r' ) 
+            if (ans1 == 'r' ) //declaration of the winner. 
             {    
                 cout<<"User one wins"<<endl;
            

@@ -31,25 +31,30 @@ int main(int argc, char** argv) {
    
      
     //Process values -> Map inputs to Outputs
-    float vb4sqrt = b*b-4*a*c;
-    if (a==0) {
-        if(c==0){
+    float vb4sqrt = b*b-4*a*c;//root of quadratic
+  
+       
+     
+    //Display Output
+     if (a==0) 
+     {
+        if(c==0)
+        {
               cout<<"This is not an algebraic equation"<<endl;
         }
               cout<<"The solution is x = "<<-c/b<<endl;
-    }else if(vb4sqrt>0) {
+     }
+     else if(vb4sqrt>0) 
+     {
         cout<<"x = ("<<((-b+sqrt(vb4sqrt))/2*a)<<" , ";
-                 cout<<((-b-sqrt(vb4sqrt))/2*a)<<")"<<endl;
+        cout<<((-b-sqrt(vb4sqrt))/2*a)<<")"<<endl;
                 
-    }else{
+     }
+     else
+     {
         cout<<"x = ("<<((-b/2*a))<<"+"<<( sqrt(vb4sqrt)/(2*a))<<"i, "; 
                  cout<<((-b/2*a))<<"+"<<(-sqrt(vb4sqrt)/(2*a))<<"i)"<<endl; 
-    }   
-     
-       
-     
-    
-    //Display Output
+     }  
    
    
     
