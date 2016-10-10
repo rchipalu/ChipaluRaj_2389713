@@ -43,8 +43,7 @@ int main(int argc, char** argv) {
         {    
             case '2':
                 val = 2;
-                cout <<"The value of the card  ";
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -52,9 +51,7 @@ int main(int argc, char** argv) {
             
             case '3':
                 val = 3;
-                cout <<"The value of the card  ";
-               
-                cout<<"is"<<endl;
+                cout <<"The value of the card is  ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -62,9 +59,7 @@ int main(int argc, char** argv) {
             
             case '4':
                 val = 4;
-                cout <<"The value of the card  ";
-                
-                cout<<"is"<<endl;
+                cout <<"The value of the card is  ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -72,9 +67,7 @@ int main(int argc, char** argv) {
             
             case '5':
                 val = 5;
-                cout <<"The value of the card  ";
-               
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -82,9 +75,7 @@ int main(int argc, char** argv) {
             
             case '6':
                 val = 6;
-                cout <<"The value of the card  ";
-               
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -92,9 +83,7 @@ int main(int argc, char** argv) {
              
             case '7':
                 val = 7;
-                cout <<"The value of the card  ";
-               
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -102,9 +91,7 @@ int main(int argc, char** argv) {
                 
             case '8':
                 val = 8;
-                cout <<"The value of the card  ";
-                
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -113,9 +100,7 @@ int main(int argc, char** argv) {
                 
             case '9':
                 val = 9;
-                cout <<"The value of the card  ";
-               
-                cout<<"is"<<endl;
+                cout <<"The value of the card is  ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -124,9 +109,7 @@ int main(int argc, char** argv) {
             case 'T': 
             case 't':    
                 val = 10;
-                cout <<"The value of the card  ";
-                
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -135,9 +118,7 @@ int main(int argc, char** argv) {
             case 'J':
             case 'j'://case if value is a Jack
                 val = 10;
-                cout <<"The value of the card  ";
-               
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -146,9 +127,7 @@ int main(int argc, char** argv) {
             case 'q'://case if value is a queen. 
             case 'Q':
                 val = 10;
-                cout <<"The value of the card  ";
-               
-                cout<<"is"<<endl;
+                cout <<"The value of the card is ";
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -157,9 +136,7 @@ int main(int argc, char** argv) {
             case 'k':
             case 'K': //case of a King
                 val = 10;
-                cout <<"The value of the card  "; 
-                
-                cout<<"is"<<endl;
+                cout <<"The value of the card is  "; 
                 cout<<val<<endl;
                 cout<<""<<endl;
                 totval = val + totval;
@@ -177,7 +154,6 @@ int main(int argc, char** argv) {
                     }
                     cout <<"The value of the card is";
                     cout <<val<<endl;
-                    cout<<""<<endl;
                     totval = totval + val;
                     n++;
             }
@@ -196,13 +172,13 @@ int main(int argc, char** argv) {
     //Display Output
                if ( totval <= 21)  
                 {
-                cout<< "total value of the cards is "<<endl;
+                cout<< "total value of the cards is ";
                 cout <<totval<<endl; 
                 } 
-            else 
-            {    
+                else 
+                {    
                 cout <<"Busted"<<endl;
-            }
+                }   
         
       
     
