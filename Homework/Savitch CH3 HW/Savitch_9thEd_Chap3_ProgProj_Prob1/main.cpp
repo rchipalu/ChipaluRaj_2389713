@@ -47,6 +47,7 @@ int main(int argc, char** argv) {
      cost1 = (weeknd * lengthm);
      cost2 = (monfria * lengthm);
      cost3 = (monfrie * lengthm);
+     
     
     //Display Output
     
