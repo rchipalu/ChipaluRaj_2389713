@@ -1,10 +1,10 @@
 /* 
-   File:  Savitch Chapter 2 Program Project #8 main
+   File:  Savitch Chapter 3 Program Project #10 main
    Author: Raj Chipalu
-   Created on September 27 , 2016, 11:55 pm
+   Created on October 11 , 2016, 10:00 am
    Purpose: Write a program that calculates the number of chocolate bars that 
  * should be consumed to maintain one’s weight for the appropriate sex of the 
- * specified weight, height, and age. 
+ * specified weight, height, and age, and exercise amount. 
  */
 
 //System Libraries
@@ -28,10 +28,10 @@ int main(int argc, char** argv) {
     float hgt;//height in inches
     float age;//age in years
     float BMR_m;//BMR of the male
-    float BMR_msed;
-    float BMR_msa;
-    float BMR_mac;
-    float BMR_mha;
+    float BMR_msed;//BMR of sedentary lifestyle/
+    float BMR_msa;//BMR of somewhat active
+    float BMR_mac;//BMR of Active lifestyle.
+    float BMR_mha;//BMR of highly active.
     float BMR_f;//BMR of the female
     float BMR_fsed;
     float BMR_fsa;
@@ -68,7 +68,7 @@ int main(int argc, char** argv) {
     cout << "Enter the gender M or F"<<endl;
     cin >> gend;
     
-    cout << "Please answer if you are :"<<endl;
+    cout << "Please answer if you are :"<<endl;//allow user to enter which fits their appropriate exercise amount. 
     cout<<"a. Sedentary"<<endl;
     cout<<"b. Somewhat active (exercise occasionally)"<<endl;
     cout<<"c. Active (exercise 3–4 days per week)"<<endl;
@@ -100,57 +100,57 @@ int main(int argc, char** argv) {
     cho_mha = (BMR_mha/CHOCBAR);      
     
      //Display Output
-            if (gend == 'm' || gend == 'M') 
+            if (gend == 'm' || gend == 'M') //if gender is male.
             {    
-                switch (ans)
+                switch (ans)//switch function depending on what multiple choice answer they selected. 
                 {   case ('a'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_msed<<endl;
-                                cout<<"to maintains ones weight for the male"<<endl;
+                                cout<<" to maintains ones weight for the male"<<endl;
                                 break;
                     case ('b'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_msa;
-                                cout<<"to maintains ones weight for the male"<<endl; 
+                                cout<<" to maintains ones weight for the male"<<endl; 
                                 break;
                     case ('c'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_mac;
-                                cout<<"to maintains ones weight for the male"<<endl; 
+                                cout<<" to maintains ones weight for the male"<<endl; 
                                 break;
                     case ('d'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_mha;
-                                cout<<"to maintains ones weight for the male"<<endl;  
+                                cout<<" to maintains ones weight for the male"<<endl;  
                                 break;
                 }                
                 
                 
             }
     
-            if (gend == 'f' || gend == 'F')
+            if (gend == 'f' || gend == 'F')//if gender answered is female. 
             
             {
                 switch (ans)
                 {   case ('a'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_fsed;
-                                cout<<"to maintains ones weight for the female"<<endl; 
+                                cout<<" to maintains ones weight for the female"<<endl; 
                                 break;
                     case ('b'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_fsa;
-                                cout<<"to maintains ones weight for the female"<<endl;  
+                                cout<<" to maintains ones weight for the female"<<endl;  
                                 break;                        
                     case ('c'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_fac;
-                                cout<<"to maintains ones weight for the female"<<endl; 
+                                cout<<" to maintains ones weight for the female"<<endl; 
                                 break;
                     case ('d'):
                                 cout<< "The number of chocolate bars that should be consumed is "<<endl;
                                 cout<< cho_fha;
-                                cout<<"to maintains ones weight for the female"<<endl;   
+                                cout<<" to maintains ones weight for the female"<<endl;   
                                 break;
                 }                
                                                                 
