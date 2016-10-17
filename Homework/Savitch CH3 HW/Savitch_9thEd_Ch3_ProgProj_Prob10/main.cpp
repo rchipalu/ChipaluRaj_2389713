@@ -128,7 +128,7 @@ int main(int argc, char** argv) {
                 
             }
     
-            if (gend == 'f' || gend == 'F')//if gender answered is female. 
+        else if (gend == 'f' || gend == 'F')//if gender answered is female. 
             
             {
                 switch (ans)

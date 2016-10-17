@@ -15,8 +15,7 @@ using namespace std;  //Name-space used in the System Library
 //User Libraries
 
 //Global Constants
-const float INTER1 = .015;//Interest for first $1000
-const float INTER2 = .01;//Interest for amount after $1000
+
 
 //Function prototypes
 
@@ -30,6 +29,8 @@ int main(int argc, char** argv) {
     float indue2;//interest due
     float totdue;//total amount due
     float totper;//Amount due past $1000
+    const float INTER1 = .015;//Interest for first $1000
+const float INTER2 = .01;//Interest for amount after $1000
    
     
      
@@ -77,7 +78,7 @@ int main(int argc, char** argv) {
         
         }
     
-    if (accountb > 1000)
+    else
         {
             cout<<"The total interest due is 1.5% on the first $1000 and 1% for the amount of $";
             cout<<totper<<endl;

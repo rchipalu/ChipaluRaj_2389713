@@ -36,7 +36,14 @@ int main(int argc, char** argv) {
    
      
     //Process values -> Map inputs to Outputs
-    do 
+
+    
+    
+       
+     
+    
+    //Display Output
+          do 
     {    
         if  ((ans1 == 'r' && ans2 == 'p') || (ans1 == 'p' && ans2 == 'r'))
         {   
@@ -56,7 +63,7 @@ int main(int argc, char** argv) {
         }
         
    
-        if  ((ans1 == 'p' && ans2 == 's') || (ans1 == 's' && ans2 == 'p'))
+        else if  ((ans1 == 'p' && ans2 == 's') || (ans1 == 's' && ans2 == 'p'))
         {
             cout<<"Scissors cut paper"<<endl;
     
@@ -71,7 +78,7 @@ int main(int argc, char** argv) {
             
             }
         }
-        if  ((ans1 == 'r' && ans2 == 's') || (ans1 == 's' && ans2 == 'r'))
+        else if  ((ans1 == 'r' && ans2 == 's') || (ans1 == 's' && ans2 == 'r'))
         {
             cout<<"rock beats scissors"<<endl;
     
@@ -87,11 +94,18 @@ int main(int argc, char** argv) {
             }
         }
         
-        if  (ans1 == ans2)  
+        else if  ((ans1 && ans2 == r) || (ans1 && ans2 == s) || (ans1 && ans2 == p) )  
         { 
             cout<<"Nobody wins."<<endl;  
         } 
-    cout <<""<<endl;
+        else if ((ans1 && ans2 != r) || (ans1 && ans2 != s) || (ans1 && ans2 != p) )
+        {
+            cout<<"Please enter a correct letter"<<endl;
+        }
+        
+        
+        
+                cout <<""<<endl;
                 cout << "Want to play again? "<<endl;
                 cout << "Press y for yes, press n for No"<<endl;
                 cin >> ans3; 
@@ -99,12 +113,6 @@ int main(int argc, char** argv) {
           }
           while (ans3 == 'y' || ans3 == 'Y'); 
    
-    
-    
-       
-     
-    
-    //Display Output
     
    
    

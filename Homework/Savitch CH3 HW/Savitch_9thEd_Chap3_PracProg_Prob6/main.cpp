@@ -15,7 +15,6 @@ using namespace std;  //Name-space used in the System Library
 
 //Global Constants
 const float pie = 3.14;//value of pie
-const float y = 62.4;//specific weight of water in lb per cubic feet. 
 
 
 //Function prototypes

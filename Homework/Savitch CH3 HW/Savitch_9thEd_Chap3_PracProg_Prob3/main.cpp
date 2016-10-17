@@ -41,7 +41,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Pieces."<<endl;
                }   
             }
-            if ( date >=1 && date < 21)
+            else
             {
                 cout<<"Your horoscope sign is a Pisces"<<endl;
                 if (date == 19 || date ==20) 
@@ -53,9 +53,9 @@ int main(int argc, char** argv) {
             
         }     
     
-    if(month == 4) 
+    else if(month == 4) 
         {  
-            if ( date > 20)
+            if ( date >= 20)
             {
                cout<<"Your horoscope sign is a Taurus"<<endl;
                if (date == 20 || date == 21)
@@ -63,7 +63,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Aries."<<endl;
                }   
             }
-            if (date <= 19)
+            else
             {
                 cout<<"Your horoscope sign is a Aries"<<endl;
                 if (date == 19 || date ==18 ) 
@@ -75,7 +75,7 @@ int main(int argc, char** argv) {
             
         }  
     
-        if(month == 5) 
+    else if(month == 5) 
         {  
             if ( date >=1 && date <=20)
             {
@@ -85,7 +85,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Gemini."<<endl;
                }   
             }
-            if ( date >=21)
+            else
             {
                 cout<<"Your horoscope sign is a Gemini"<<endl;
                 if (date == 22 || date ==23) 
@@ -97,7 +97,7 @@ int main(int argc, char** argv) {
             
         }  
         
-        if(month == 6) 
+    else if(month == 6) 
         {  
             if ( date <=21)
             {
@@ -107,7 +107,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Taurus."<<endl;
                }   
             }
-            if ( date >=22)
+            else
             {
                 cout<<"Your horoscope sign is a Cancer"<<endl;
                 if (date == 22 || date ==23) 
@@ -119,7 +119,7 @@ int main(int argc, char** argv) {
             
         }  
         
-        if(month == 7) 
+     else  if(month == 7) 
         {  
             if ( date <=22)
             {
@@ -129,7 +129,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Leo."<<endl;
                }   
             }
-            if ( date >=23)
+            else
             {
                 cout<<"Your horoscope sign is a Leo"<<endl;
                 if (date == 23 || date ==24) 
@@ -151,7 +151,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Virgo."<<endl;
                }   
             }
-            if ( date >=23)
+            else
             {
                 cout<<"Your horoscope sign is a Virgo"<<endl;
                 if (date == 23 || date ==24) 
@@ -173,7 +173,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Libra."<<endl;
                }   
             }
-            if ( date >=23)
+            else
             {
                 cout<<"Your horoscope sign is a Libra"<<endl;
                 if (date == 23 || date ==24) 
@@ -194,7 +194,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Scorpio."<<endl;
                }   
             }
-            if ( date >=23)
+            else
             {
                 cout<<"Your horoscope sign is a Scorpio"<<endl;
                 if (date == 23 || date ==24) 
@@ -216,7 +216,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Saggittarius."<<endl;
                }   
             }
-            if ( date >= 22)
+            else
             {
                 cout<<"Your horoscope sign is a Saggittarius"<<endl;
                 if (date == 23 || date ==23) 
@@ -237,7 +237,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Capricorn."<<endl;
                }   
             }
-            if ( date >=22)
+            else
             {
                 cout<<"Your horoscope sign is a Capricorn"<<endl;
                 if (date == 22 || date ==23) 
@@ -258,7 +258,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Aquarius."<<endl;
                }   
             }
-            if ( date >=20)
+            else
             {
                 cout<<"Your horoscope sign is a Aquarius"<<endl;
                 if (date == 20 || date ==21) 
@@ -279,7 +279,7 @@ int main(int argc, char** argv) {
                    cout<<"You are a cusp baby with the adjacent sign Pisces."<<endl;
                }   
             }
-            if ( date >=19)
+            else
             {
                 cout<<"Your horoscope sign is a Pisces"<<endl;
                 if (date == 19 || date ==20) 
