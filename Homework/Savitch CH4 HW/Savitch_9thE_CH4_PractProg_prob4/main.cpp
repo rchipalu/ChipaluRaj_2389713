@@ -1,8 +1,8 @@
 /* 
    File:  main
    Author: Raj Chipalu
-   Created on October  , 2016, pm
-   Purpose: 
+   Created on October 17  , 2016, pm
+   Purpose: Write a program to gauge the rate of inflation for the past year.
  */
 
 //System Libraries
@@ -19,8 +19,8 @@ using namespace std;  //Name-space used in the System Library
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declaration of Variables
-    float pricetod;
-    float pricely;
+    float pricetod;//price of object today
+    float pricely;//price last year
     float inflatr;
     char ans;
   
@@ -37,7 +37,7 @@ int main(int argc, char** argv) {
     
      
     //Process values -> Map inputs to Outputs
-    inflatr = ((pricetod - pricely) / pricely) * 100; 
+    inflatr = ((pricetod - pricely) / pricely) * 100; //inflation equation. 
    
     //Display Output
     cout.setf(ios::fixed);

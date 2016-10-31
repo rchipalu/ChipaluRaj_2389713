@@ -2,7 +2,9 @@
    File:  main
    Author: Raj Chipalu
    Created on October  , 2016, pm
-   Purpose: 
+   Purpose: Enhance your program from the previous Practice Program by having 
+ * it also print out the estimated price of the item in one and in two years 
+ * from the time of the calculation.
  */
 
 //System Libraries
